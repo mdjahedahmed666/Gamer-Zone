@@ -281,6 +281,10 @@ background: #FFF;
 border: none;
 padding: 5px;
 }
+.game-btn:hover{
+  border: 2px solid #FF42A5;
+  color: #FF42A5;
+}
 .btn-img{
   height: 50px;
   width: 50px;
