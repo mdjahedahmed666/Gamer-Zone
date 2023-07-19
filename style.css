@@ -225,7 +225,7 @@ nav ul {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
+/* play instantly */
 .play-instantly{
   margin: 50px 200px;
   display: flex;
@@ -263,4 +263,26 @@ nav ul {
   margin-left: -100px;
   height: 250px;
   width: 200px;
+}
+/* Game types */
+.game-types{
+  padding: 50px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.game-btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+background: #FFF;
+border: none;
+padding: 5px;
+}
+.btn-img{
+  height: 50px;
+  width: 50px;
 }
