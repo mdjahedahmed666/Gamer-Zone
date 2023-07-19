@@ -321,3 +321,280 @@ justify-content: center;
 .footer-tearms p, .copy-right{
   color: rgba(255, 255, 255, 0.60);
 }
+
+
+@media (max-width: 576px) { 
+  .nav-container {
+    padding: 40px
+  }
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
+  .nav-menu li{
+    font-size: 14px;
+    padding: 5px;
+  }
+  .banner {
+    flex-direction: column;
+    margin: 15px 0px;
+  }
+  .banner-left {
+    padding-top: 20px;
+  }
+  .banner h2 {
+    font-size: 30px;
+  }
+  .text-gradient {
+    font-size: 40px;
+  }
+  .btn-primary {
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .gamer {
+    flex-direction: column;
+    margin: 15px 0px;
+  }
+  .gamer-right {
+    width: 50%;
+    text-align: center;
+  }
+  .gamer-title {
+    font-size: 30px;
+  }
+  .gamer-description {
+    margin: 10px 0px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .purpose {
+    padding-top: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .purpose span {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .online {
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .online-title {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .online-title span {
+    font-size: 30px;
+  }
+  .online-description {
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .all-onlines {
+    flex-direction: column;
+    text-align: center;
+  }
+  .online-game {
+    width: 80%;
+    padding: 0px 40px;
+    
+  }
+  .play-instantly{
+    margin: 10px 0px;
+    flex-direction: column;
+  }
+  .play-description{
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .play-instantly-left{
+    text-align: center;
+    padding: 0px;
+    margin-right: 0px;
+  }
+  .play-instantly-left h2{
+    font-size: 30px;
+  }
+  .play{
+    font-size: 30px;
+  }
+  .position{
+    margin-top: -100px;
+    margin-left: -50px;
+    height: 200px;
+    width: 150px;
+  }
+  .game-types{
+    padding: 15px 40px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  padding: 5px;
+  }
+  .game-btn{
+    gap: 3px;
+    border-radius: 15px;
+  padding: 3px;
+  }
+  .btn-img{
+    height: 20px;
+    width: 20px;
+  }
+  .game-btn p{
+    font-size: 10px;
+  }
+  footer{
+    padding: 50px 50px;
+  }
+  .footer-features{
+    padding: 15px 0px;
+    flex-wrap: wrap;
+  }
+ }
+
+@media (max-width: 768px) { 
+  .nav-container {
+    padding: 50px
+  }
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
+  .nav-menu li{
+    font-size: 16px;
+    padding: 8px;
+  }
+  .banner {
+    flex-direction: column;
+    margin: 20px 0px;
+  }
+  .banner-left {
+    padding-top: 20px;
+  }
+  .banner h2 {
+    font-size: 35px;
+  }
+  .text-gradient {
+    font-size: 40px;
+  }
+  .btn-primary {
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .gamer {
+    flex-direction: column;
+    margin: 15px 0px;
+  }
+  .gamer-right {
+    width: 50%;
+    text-align: center;
+  }
+  .gamer-title {
+    font-size: 30px;
+  }
+  .gamer-description {
+    margin: 10px 0px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .purpose {
+    padding-top: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .purpose span {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .online {
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .online-title {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .online-title span {
+    font-size: 30px;
+  }
+  .online-description {
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .all-onlines {
+    flex-direction: column;
+    text-align: center;
+  }
+  .online-game {
+    width: 80%;
+    padding: 0px 75px;
+    
+  }
+  .play-instantly{
+    margin: 10px 0px;
+    flex-direction: column;
+  }
+  .play-description{
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .play-instantly-left{
+    text-align: center;
+    padding: 0px;
+    margin-right: 0px;
+  }
+  .play-instantly-left h2{
+    font-size: 30px;
+  }
+  .play{
+    font-size: 30px;
+  }
+  .position{
+    margin-top: -100px;
+    margin-left: -50px;
+    height: 200px;
+    width: 150px;
+  }
+  /* .game-types{
+    padding: 15px 40px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  padding: 5px;
+  } */
+  /* .game-btn{
+    gap: 3px;
+    border-radius: 15px;
+  padding: 3px;
+  }
+  .btn-img{
+    height: 20px;
+    width: 20px;
+  } */
+  .game-btn p{
+    font-size: 10px;
+  }
+  footer{
+    padding: 50px 50px;
+  }
+  .footer-features{
+    padding: 15px 0px;
+    flex-wrap: wrap;
+  }
+ }
