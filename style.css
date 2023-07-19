@@ -90,11 +90,11 @@ nav ul {
   border-radius: 48px;
   color: white;
 }
-.btn-1{
+.btn-1 {
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
 }
-.btn-2{
-  background: #4EC5F7;
+.btn-2 {
+  background: #4ec5f7;
 }
 .banner-right {
   width: 50%;
@@ -104,44 +104,122 @@ nav ul {
   width: 100%;
 }
 /* gamer section style */
-.gamer{
+.gamer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 50px;
-  margin: 40px 200px;
+  margin: 50px 200px;
 }
-.gamer-left{
+.gamer-left {
   width: 50%;
 }
-.gammer-img{
+.gammer-img {
   width: 100%;
 }
-.gamer-right{
+.gamer-right {
   width: 50%;
   text-align: right;
 }
-.gamer-title{
-font-size: 45px;
+.gamer-title {
+  font-size: 45px;
 }
-.gamer-description{
+.gamer-description {
   margin: 20px 0px;
-  color: #534C64;
+  color: #534c64;
   font-weight: 400;
-line-height: 30px;
+  line-height: 30px;
 }
-.btn-3{
+.btn-3 {
   border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-border: none;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border: none;
 }
-.purpose{
+.purpose {
   padding-top: 25px;
-  color: #534C64;
-line-height: 25px;
-text-align: right;
+  color: #534c64;
+  line-height: 25px;
+  text-align: right;
 }
-.purpose span{
+.purpose span {
   font-size: 24px;
   font-weight: 400;
+}
+/* online games style */
+.online {
+  margin: 100px 200px;
+  text-align: center;
+}
+.online-title {
+  font-size: 45px;
+  padding: 20px 0;
+}
+.online-title span {
+  font-size: 45px;
+}
+.online-description {
+  padding-bottom: 30px;
+  color: #534c64;
+  font-weight: 400;
+}
+.online-game {
+  width: 30%;
+  text-align: center;
+}
+.all-onlines {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.online-name {
+  color: black;
+  padding-top: 20px;
+}
+.online-des {
+  color: gray;
+  padding: 20px 0 10px 0;
+  line-height: 25px;
+  font-size: 14px;
+}
+.online-img {
+  width: 100%;
+}
+/* .online-img:hover, .online-img:hover .position{
+  border: 4px solid rgb(224, 18, 224);
+  border-radius: 16px;
+  opacity: 0.5;
+  visibility: visible; */
+/* } */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 50;
+  left: 50;
+  right: 50;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #21282a;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
