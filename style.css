@@ -3,8 +3,9 @@
   margin: 0;
 }
 body {
-font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
+/* nav style */
 nav {
   height: 100px;
   background: #fff;
@@ -25,8 +26,8 @@ font-family: Work Sans; */
   font-size: 40px;
   font-weight: 700;
 }
-.logo-name span{
-color: #FF42A5;
+.logo-name span {
+  color: #ff42a5;
 }
 nav ul {
   list-style: none;
@@ -36,13 +37,69 @@ nav ul {
   align-items: center;
   gap: 20px;
 }
-.special-menu{
-    border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-padding: 10px 20px;
-display: flex;
-gap: 10px;
+.special-menu {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  gap: 10px;
 }
-.tiktok{
-    width: 13px;
+.tiktok {
+  width: 13px;
+}
+
+/* banner style */
+.banner {
+  margin: 0px 240px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-left {
+  width: 50%;
+  padding-top: 60px;
+}
+.banner h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-span {
+  color: #f948b2;
+  font-size: 70px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+  color: #534c64;
+}
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  color: white;
+}
+.btn-primary {
+  display: inline-flex;
+  padding: 18px 40px;
+  align-items: flex-start;
+  border-radius: 48px;
+}
+.btn-1{
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+.btn-2{
+  background: #4EC5F7;
+}
+.banner-right {
+  width: 50%;
+}
+.banner-img {
+  margin-left: ;
+  width: 100%;
 }
